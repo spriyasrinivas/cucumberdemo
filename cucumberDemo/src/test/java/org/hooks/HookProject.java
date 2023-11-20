@@ -13,7 +13,7 @@ public class HookProject extends BaseClass{
 	public void before()
 	{
 		launchBrowser();
-		loadUrl("https://www.flipkart.com/");
+		loadUrl("https://www.amazon.com/");
 	} 
 	@After
 	public void after() throws IOException
